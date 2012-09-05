@@ -1,0 +1,131 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript Practice</title>
+    <link rel="stylesheet" href="css/impress-demo.css">
+  </head>
+  <body>
+    <div id="impress">
+      <div id="start" class="step slide" data-x="-1000" data-y="-800">
+        <q>Javascript Best Practices</q>
+      </div>
+
+      <div class="step slide" data-x="0" data-y="-800">
+        <q>Javascript Practices</q>
+      </div>
+
+      <div class="step slide" data-x="1000" data-y="-800">
+        <q>Javascript Practice</q>
+      </div>
+
+      <div class="step slide" data-x="-1000" data-y"0">
+        <q>Get your truth out of the DOM</q>
+      </div>
+
+      <div class="step slide" data-x="-1000" data-y="800">
+        <q>Two Patterns:</q>
+        <ul>
+          <li>MVC</li>
+          <li>Publish/Subscribe</li>
+        </ul>
+      </div>
+
+      <div class="step slide" data-x="0" data-y="800">
+        <q>Of course, there are a bunch of pre-fabricated libraries for this&hellip;</q>
+      </div>
+
+      <div class="step slide" data-x="1000" data-y="800">
+        <q>&hellip;but forget that noise;</q>
+        <q>let’s roll our own!</q>
+      </div>
+
+      <div class="step slide" data-x="2000" data-y="800">
+        <q><pre>git clone git://github.com/<br>dandorman/ahu-javascript.git</pre></q>
+        <q><pre>git checkout skeleton</pre></q>
+      </div>
+
+      <div class="step slide" data-x="-1000" data-y="1600">
+        <q><pre>git checkout bad</pre></q>
+      </div>
+
+      <div class="step slide" data-x="0" data-y="1600">
+        <q>What’s wrong with this picture?</q>
+      </div>
+
+      <div class="step slide" data-x="-1000" data-y="2400">
+        <q>Aside!</q>
+        <q><pre>git checkout link-info</pre></q>
+      </div>
+
+      <div class="step slide" data-x="-1000" data-y="3200">
+        <q><pre>git checkout pubsub</pre></q>
+      </div>
+
+      <div class="step slide" data-x="0" data-y="3200">
+        <q>publish.call(obj, "event", arg1, arg2)</q>
+      </div>
+
+      <div class="step slide" data-x="1000" data-y="3200">
+        <q>publish.apply(obj, ["event", arg1, arg2])</q>
+      </div>
+
+      <div class="step slide" data-x="2000" data-y="3200">
+        <q>obj.publish = publish</q>
+        <q>obj.publish("event", arg1, arg2)</q>
+      </div>
+
+      <div class="step slide" data-x="-1000" data-y="4000">
+        <q>git checkout hello-model</q>
+      </div>
+
+      <div class="step slide" data-x="0" data-y="4000">
+        <q>Link</q>
+      </div>
+
+      <div class="step slide" data-x="1000" data-y="4000">
+        <q>[[Prototype]] vs .prototype</q>
+      </div>
+
+      <div class="step slide" data-x="2000" data-y="4000">
+        <q>SharedLinkCollection</q>
+      </div>
+
+      <div class="step slide" data-x="3000" data-y="4000">
+        <q>SharedLinkCollectionView</q>
+      </div>
+
+      <div class="step slide" data-x="4000" data-y="4000">
+        <q>SharedLinkView</q>
+      </div>
+
+      <div class="step slide" data-x="-1000" data-y="4800">
+        <q>Templates!</q>
+        <p>(Mustache)</p>
+        <q>git checkout templates</q>
+      </div>
+
+      <div class="step slide" data-x="-1000" data-y="5600">
+        <q>git checkout pending</q>
+      </div>
+
+      <div class="step slide" data-x="-1000" data-y="6400">
+        <q>git checkout likes</q>
+      </div>
+
+      <div class="step slide" data-x="-1000" data-y="7200">
+        <q>git checkout modules</q>
+      </div>
+
+      <div class="step slide" data-x="-1000" data-y="8000">
+        <q>Go Gators!</q>
+      </div>
+    </div>
+
+    <script src="js/impress.js"></script>
+    <script>
+      impress().init()
+    </script>
+  </body>
+</html>
